@@ -1,0 +1,46 @@
+{
+  "app_name": "Inter Maths Study App",
+  "version": "1.0.0",
+  "categories": [
+    {
+      "step1_class": "First Year Maths",
+      "subjects": [
+        {
+          "step2_subject_name": "Mathematics 1A",
+          "topics": [
+            {
+              "step3_topic_name": "Matrices",
+              "concepts": [
+                {
+                  "step4_concept_id": "c101",
+                  "step4_concept_name": "Types of Matrices & Determinants",
+                  "step5_formulas": [
+                    {
+                      "formula_id": "f1",
+                      "title": "Determinant of 2x2 Matrix",
+                      "expression": "det(A) = ad - bc"
+                    }
+                  ],
+                  "step6_questions": [
+                    {
+                      "question_id": "q1",
+                      "question_text": "Find the determinant of the matrix [[1,2],[3,4]].",
+                      "step7_solution": {
+                        "is_locked": true,
+                        "solution_text": "det(A) = (1)(4) - (2)(3) = 4 - 6 = -2."
+                      },
+                      "step8_youtube_link": {
+                        "is_locked": false,
+                        "url": "https://youtube.com"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
